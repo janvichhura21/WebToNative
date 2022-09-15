@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/showcaseFragment"
+        android:title="Showcase"
+        android:icon="@drawable/ic_showcase"/>
+    <item android:id="@+id/featuresFragment"
+        android:icon="@drawable/ic_feather_icon"
+        android:title="Features"/>
+    <item  android:id="@+id/faqFragment"
+        android:icon="@drawable/ic_faq"
+        android:title="FAQ"/>
+    <item android:id="@+id/pricingFragment"
+        android:icon="@drawable/ic_pricing"
+        android:title="Pricing"/>
+
+
+</menu>

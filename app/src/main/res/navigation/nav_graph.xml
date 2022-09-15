@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.webtonativeapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/showcaseFragment"
+        android:name="com.example.webtonativeapp.ShowcaseFragment"
+        android:label="fragment_showcase"
+        tools:layout="@layout/fragment_showcase" />
+    <fragment
+        android:id="@+id/featuresFragment"
+        android:name="com.example.webtonativeapp.FeaturesFragment"
+        android:label="fragment_features"
+        tools:layout="@layout/fragment_features" />
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.example.webtonativeapp.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/pricingFragment"
+        android:name="com.example.webtonativeapp.PricingFragment"
+        android:label="fragment_pricing"
+        tools:layout="@layout/fragment_pricing" />
+</navigation>
